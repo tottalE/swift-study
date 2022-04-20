@@ -30,6 +30,7 @@ func hasAnyMatches(list:[Int], condition: (Int) -> Bool) -> Bool {
     return false
 }
 
+// 이 함수의 타입은? ((Int) -> Bool)
 func lessThanTen(number: Int) -> Bool {
     return number < 10
 }
